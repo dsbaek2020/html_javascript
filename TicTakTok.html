@@ -1,0 +1,56 @@
+<html>
+  <head>
+	<title> tic tac toc</title> 	
+	<style>
+	.row div {
+	padding: 10px;
+	border: 1px solid black;
+	height:30px;
+	width: 30px;
+	float: left;
+	}
+	.row{
+		clear: both;
+		}
+	</style>
+  </head>
+	
+  <body>
+	<p>do you want to play tic tac toc?</p>
+	Click here to play<br/>
+	
+	<div>
+		<div class="row">
+			<div onclick="place(this)"></div>
+			<div onclick="place(this)"></div>
+			<div onclick="place(this)"></div>
+		</div>
+		
+		<div class="row">
+			<div onclick="place(this)"></div>
+			<div onclick="place(this)"></div>
+			<div onclick="place(this)"></div>
+		</div>
+		
+		<div class="row">
+			<div onclick="place(this)"></div>
+			<div onclick="place(this)"></div>
+			<div onclick="place(this)"></div>
+		</div>
+	</div>
+	<script>
+	function place(box){
+	alert("you clicked here!");
+	}
+	</script>
+	
+	
+  </body>
+	
+</html>
+
+
+	
+
+			
+	
